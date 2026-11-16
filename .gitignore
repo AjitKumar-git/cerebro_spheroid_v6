@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large model checkpoints and weights
+checkpoints/
+*.pt
+*.bin
+*.onnx
+*.safetensors
+*.ckpt
+
+# IDE agent cache
+.qoder/
+
+# Heavy data directories and caches
+data/*
+!data/cerebro_cognitive_8k/
+!data/factual_tables/
+!data/factual_tables/**
+!data/tokenizer/
+!data/tokenizer/**
+!data/chat_thinking_sft_15k.jsonl
+archive/
+.hf_cache/
+.kaggle_output/
+chat_logs/
+*.parquet
+*.zip
+*.tar.gz
+*.tar
+
+# Curated cognitive reasoning dataset for training & anneal
+data/cerebro_cognitive_8k/*.jsonl
+!data/cerebro_cognitive_8k/cerebro_cognitive_10k.parquet
+!data/cerebro_cognitive_8k/cerebro_tri_modal_sft_10k.parquet
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# IDE / System
+.agents/
+.DS_Store
+.idea/
+.vscode/
+
+# Grants, applications, and private proposals
+TRC_APPLICATION.md
+*application*
+*Application*
+private/
+backup/
+
+# Local run artifacts
+loss_history*.json
+loss_trajectory*.png
+metrics/
+.pytest_cache/

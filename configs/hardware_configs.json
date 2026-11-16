@@ -1,0 +1,63 @@
+{
+  "tpu_v5e_1": {
+    "TPU_v5_lite_16GB_seq512": {
+      "batch_size": 128,
+      "remat": false,
+      "seq_len": 512,
+      "tok_per_sec": 389807.0,
+      "step_ms": 252.2,
+      "vram_gb": 2.1,
+      "vram_utilization_pct": 13.4
+    },
+    "TPU_v5_lite_16GB": {
+      "batch_size": 128,
+      "remat": false,
+      "seq_len": 512,
+      "tok_per_sec": 389807.0,
+      "step_ms": 252.2,
+      "vram_gb": 2.1,
+      "vram_utilization_pct": 13.4
+    }
+  },
+  "v5_small": {
+    "TPU_v5_lite_16GB_seq512": {
+      "batch_size": 128,
+      "remat": false,
+      "seq_len": 512,
+      "tok_per_sec": 389807.0,
+      "step_ms": 252.2,
+      "vram_gb": 2.1,
+      "vram_utilization_pct": 13.4
+    },
+    "TPU_v5_lite_16GB": {
+      "batch_size": 128,
+      "remat": false,
+      "seq_len": 512,
+      "tok_per_sec": 389807.0,
+      "step_ms": 252.2,
+      "vram_gb": 2.1,
+      "vram_utilization_pct": 13.4
+    }
+  },
+  "v5_test": {
+    "cpu_8GB": {
+      "batch_size": 64,
+      "remat": true,
+      "seq_len": 64,
+      "tok_per_sec": 99999.0,
+      "step_ms": 100.0,
+      "vram_gb": 4.0,
+      "vram_utilization_pct": 50.0
+    },
+    "Mock_Test_Accelerator_16GB": {
+      "batch_size": 128,
+      "remat": true,
+      "seq_len": 256,
+      "tok_per_sec": 75000.0,
+      "step_ms": 435.2,
+      "vram_gb": 12.8,
+      "vram_utilization_pct": 80.0
+    }
+  }
+}
+
